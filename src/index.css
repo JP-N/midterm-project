@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
+
+body {
+  @apply bg-gray-50 text-gray-900;
+}
+
+.movie-card {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+.movie-card:hover {
+  @apply transform -translate-y-1 shadow-lg;
+}
+
+.watched {
+  @apply opacity-60 grayscale;
+}
