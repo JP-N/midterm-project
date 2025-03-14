@@ -17,7 +17,7 @@ app.add_middleware(
 )
 
 # TMDB Api integration, environment variables are likely better but a lot of work
-TMDB_API_KEY = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3YzUyOTk1YjhmOGY0MjM5OTczODhjMzcyZjJlNDdkMCIsIm5iZiI6MTc0MTg0MDg3NC44NjMwMDAyLCJzdWIiOiI2N2QyNjFlYTY2ODkyYmFkNjI4MTliZDMiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.3Ls0otr-3zC61xjjrNcsU6f9YZybz7xrFFeKzc0SMIg"
+TMDB_API_KEY = "YOURKEYHERE"
 TMDB_API_URL = "https://api.themoviedb.org/3"
 TMDB_IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w500"
 TMDB_HEADERS = {
