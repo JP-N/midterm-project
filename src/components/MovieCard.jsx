@@ -18,7 +18,6 @@ const MovieCard = ({ movie, onStatusChange, onDelete }) => {
         }
     };
 
-    // React handler for deleting the movie from the FastAPI 'database'
     const handleDelete = async () => {
         try {
             await deleteMovie(movie.id);
